@@ -1,0 +1,910 @@
+﻿  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+      	
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>U.S. Department of State</title>
+ 
+  <style type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed);
+		body,#bodyTable,#bodyCell{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		img,a img{
+			border:0;
+			outline:none;
+			text-decoration:none;
+			max-width:100%;
+		}
+		h1,h2,h3,h4,h5,h6{
+			margin:0;
+			padding:0;
+		}
+		p{
+			font-family:'Roboto', 'Arial', sans-serif!important;
+			margin:0 0 1em 0;
+			padding:0;
+		}
+		p a{
+			color:#00385F;
+			font-family:'Roboto', 'Arial', sans-serif!important;
+			word-wrap:break-word;
+		}
+		p a span {
+			color:#00385F;
+			font-family:'Roboto', 'Arial', sans-serif!important;
+			word-wrap:break-word;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+			line-height:100%;
+		}
+		table,td{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		body,table,td,p,a,li,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		#bodyCell{
+			padding:20px;
+		}
+		.Image{
+			vertical-align:bottom;
+		}
+		.TextContent img{
+			height:auto !important;
+		}
+	/*
+	@tab Page
+	@section background style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			background-color:#EBEBEB;
+		}
+	/*
+	@tab Page
+	@section background style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			border-top:0;
+		}
+	/*
+	@tab Page
+	@section email border
+	@tip Set the border for your email.
+	*/
+		#templateContainer{
+			border:0;
+		}
+	/*
+	@tab Page
+	@section heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			color:#003875;
+			display:block;
+			font-family:'Oswald', 'Arial', sans-serif!important;
+			font-size:24px;
+			font-style:normal;
+			font-weight:normal;
+			line-height:125%;
+			letter-spacing:-1px;
+			margin:0 0 1em 0;
+			text-align:left;
+		}
+		hr.break {
+			background: #cc3333;
+  			clear: both;
+  			float: none;
+  			width: 100%;
+  			height: 3px;
+  			margin: 0 0 1em 0;
+  			border: none;
+		}
+	/*
+	@tab Page
+	@section heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			color:#003875;
+			display:block;
+			font-family:'Oswald', 'Arial', sans-serif!important;
+			font-size:22px;
+			font-style:normal;
+			font-weight:normal;
+			line-height:125%;
+			letter-spacing:-1px;
+			margin:0 0 .2em 0;
+			text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			color:#003875;
+			display:block;
+			font-family:'Oswald', 'Arial', sans-serif!important;
+			font-size:20px;
+			font-style:normal;
+			font-weight:normal;
+			line-height:125%;
+			letter-spacing:-1px;
+			margin:0;
+			margin-top:.5em;
+			text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			display:block;
+			font-family:'Oswald', 'Arial', sans-serif!important;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			margin:0;
+			text-align:left;
+		}
+	/*
+	@tab Preheader
+	@section preheader style
+	@tip Set the background color and borders for your email's preheader area.
+	*/
+		#templatePreheader{
+			background-color:none;
+			border-top:0;
+			border-bottom:0;
+		}
+	/*
+	@tab Preheader
+	@section preheader text
+	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	*/
+		.preheaderContainer .TextContent,.preheaderContainer .TextContent p{
+			color:#999999;
+			font-family:'Roboto', 'Arial', sans-serif!important;
+			font-size:12px!important;
+			line-height:125%;
+			padding-bottom:10px;
+			text-align:center;
+		}
+	/*
+	@tab Preheader
+	@section preheader link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.preheaderContainer .TextContent a{
+			font-weight:normal;
+			text-decoration:underline;
+		}
+	/*
+	@tab Header
+	@section header style
+	@tip Set the background color and borders for your email's header area.
+	*/
+		#templateHeader{
+			background-color:#003875;
+			border-top:0;
+			border-bottom:0;
+			text-align:left;
+		}
+	/*
+	@tab Header
+	@section header text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		.headerContainer .TextContent {
+			color:#ffffff;
+			font-family:'Oswald', 'Arial', sans-serif!important;
+			font-size:22px!important;
+			font-weight:normal;
+			height:60px;
+			letter-spacing:-1px;
+			line-height:100%;
+			padding-left:9px;
+			padding-right:18px;
+			padding-bottom:4px;
+			padding-top:4px;
+			text-align:left;
+			vertical-align:middle;
+		}
+		
+		.headerContainer .OfficialLine {
+			color:#cccccc;
+			display:block;
+			font-family:'Roboto', 'Arial', sans-serif!important;
+			font-size:10px!important;
+			font-weight:normal;
+			letter-spacing:0px;
+			line-height:125%;
+			padding-top:4px;
+			text-align:left;
+		}
+	/*
+	@tab Header
+	@section header link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.headerContainer .TextContent a{
+			color:#fb4f14;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section body style
+	@tip Set the background color and borders for your email's body area.
+	*/
+		#templateBody{
+			background-color:none;
+			border-top:0;
+			border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section body text
+	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+	*/
+		.bodyContainer .TextContent {
+			background:#ffffff;
+			text-align:left;
+			padding:18px;
+		}
+		.bodyContainer .TextContent, .bodyContainer .TextContent span, .bodyContainer .TextContent div {
+			color:#606060!important;
+			font-family:'Roboto', 'Arial', sans-serif!important;
+			font-size:18px!important;
+			line-height:150%!important;
+		}
+	/*
+	@tab Body
+	@section body link
+	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+	*/
+		.bodyContainer .TextContent a{
+			border-bottom:1px dotted #003875;
+			color:#00385F;
+			font-weight:normal;
+			text-decoration:none;
+		}
+		.bodyContainer .TextContent a:hover{
+			border-bottom:1px solid #06F;
+			color:#06F;
+			font-weight:normal;
+			text-decoration:none;
+		}
+	/*
+	@tab Body
+	@section rss item container border
+	@tip Set the border color and size of the rss box.
+	*/
+		.bodyContainer .TextContentContainer{
+			border-bottom:10px solid #003875;
+			border-top:10px solid #cc3333;
+		}
+	/*
+	@tab Footer
+	@section footer style
+	@tip Set the background color and borders for your email's footer area.
+	*/
+		#templateFooter{
+			background-color:none;
+			border-top:0;
+			border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section footer text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	*/
+		.footerContainer .TextContent,.footerContainer .TextContent p{
+			color:#999999;
+			font-family:'Roboto', 'Arial', sans-serif;
+			font-size:12px;
+			line-height:150%;
+			padding-top:0;
+			padding-left:18px;
+			padding-right:18px;
+			text-align:center;
+		}
+	  .footerContainer .TextContent {
+      padding-top:18px;
+	  }
+	/*
+	@tab Footer
+	@section footer link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		.footerContainer .TextContent a{
+			color:#999999;
+			font-weight:normal;
+		}
+		
+		.footerContainer .SocialIcons {
+			text-align:center;
+		}
+		.footerContainer .SocialIcons img {
+			padding:10px;
+		}
+		
+	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[id=bodyCell]{
+			padding:0px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		table[class=TextContentContainer]{
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		table[class=BoxedTextContentContainer]{
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		table[class=mcpreview-image-uploader]{
+			width:100% !important;
+			display:none !important;
+		}
+}	@media only screen and (max-width: 480px){
+		img[class=Image]{
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		table[class=ImageGroupContentContainer]{
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageGroupContent]{
+			padding:9px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageGroupBlockInner]{
+			padding-bottom:0 !important;
+			padding-top:0 !important;
+		}
+}	@media only screen and (max-width: 480px){
+		tbody[class=ImageGroupBlockOuter]{
+			padding-bottom:9px !important;
+			padding-top:9px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		table[class=CaptionTopContent],table[class=CaptionBottomContent]{
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		table[class=CaptionLeftTextContentContainer],table[class=CaptionRightTextContentContainer],table[class=CaptionLeftImageContentContainer],table[class=CaptionRightImageContentContainer],table[class=ImageCardLeftTextContentContainer],table[class=ImageCardRightTextContentContainer]{
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageCardLeftImageContent],td[class=ImageCardRightImageContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+			padding-bottom:0 !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageCardBottomImageContent]{
+			padding-bottom:9px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageCardTopImageContent]{
+			padding-top:18px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageCardLeftImageContent],td[class=ImageCardRightImageContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+			padding-bottom:0 !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageCardBottomImageContent]{
+			padding-bottom:9px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=ImageCardTopImageContent]{
+			padding-top:18px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		table[class=CaptionLeftContentOuter] td[class=TextContent],table[class=CaptionRightContentOuter] td[class=TextContent]{
+			padding-top:9px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=CaptionBlockInner] table[class=CaptionTopContent]:last-child td[class=TextContent]{
+			padding-top:18px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=BoxedTextContentColumn]{
+			padding-left:18px !important;
+			padding-right:18px !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=TextContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section template width
+	@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+	*/
+		table[id=templateContainer],table[id=templatePreheader],table[id=templateHeader],table[id=templateBody],table[id=templateFooter]{
+			/*@tab Mobile Styles
+@section template width
+@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/max-width:600px !important;
+			width:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+			font-size:24px !important;
+			line-height:100% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			font-size:22px !important;
+			line-height:125% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			font-size:20px !important;
+			line-height:125% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			font-size:20px !important;
+			line-height:125% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		table[class=BoxedTextContentContainer] td[class=TextContent],td[class=BoxedTextContentContainer] td[class=TextContent] p{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Visibility
+	@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.
+	*/
+		table[id=templatePreheader]{
+			display:none !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Text
+	@tip Make the preheader text larger in size for better readability on small screens.
+	*/
+		td[class=preheaderContainer] td[class=TextContent],td[class=preheaderContainer] td[class=TextContent] p{
+			font-size:14px !important;
+			line-height:115% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		td[class=headerContainer] td[class=TextContent],td[class=headerContainer] td[class=TextContent] p{
+			line-height:100% !important;
+			padding-bottom:12px;
+			padding-top:12px;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		td[class=bodyContainer] td[class=TextContent],td[class=bodyContainer] td[class=TextContent] p,.bodyContainer .TextContent,.bodyContainer .TextContent p,.bodyContainer .TextContent *{
+			line-height:125% !important;
+		}
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section footer text
+	@tip Make the body content text larger in size for better readability on small screens.
+	*/
+		td[class=footerContainer] td[class=TextContent],td[class=footerContainer] td[class=TextContent] p{
+			font-size:12px !important;
+			line-height:125% !important;
+		}
+}	@media only screen and (max-width: 480px){
+		td[class=footerContainer] a[class=utilityLink]{
+			display:block !important;
+		}
+}	@media only screen and (max-width: 480px){
+		.rsstopics{
+			display:none !important;
+		}
+}	@media only screen and (max-width: 480px){
+		.rssbody{
+			border-bottom:1px solid #999999;
+		}
+}
+		/* CUSTOM STYLES */
+		body, p, div, td, span {
+			color:#606060;
+			font-family:'Roboto', 'Arial', Sans-Serif;
+		}
+		.bodyContainer .TextContent span, .bodyContainer .TextContent div,
+		h1 span, h2 span, h3 span, h1 *, h2 *, h3 * {
+			color:inherit!important;
+			font-family:inherit!important;
+			font-size:inherit!important;
+		}
+		img{
+			border:none!important;
+			height:auto!important;
+			max-width:100%!important;
+		}
+		#templateBody .TextBlockInner .TextContentContainer .TextContent {
+			border-right:1px solid #DDDDDD;
+			border-bottom:1px solid #DDDDDD;
+			border-left:1px solid #DDDDDD;
+		}
+		.image-left {
+      margin:0 10px 0 0;
+      max-width:220px;
+			padding:0 10px 0 0;
+		}
+		.image-right {
+		  margin:0 0 0 10px;
+			max-width:220px;
+			padding:0 0 0 10px;
+		}
+		.bodyContainer .TextContent .image-left a,
+		.bodyContainer .TextContent .image-right a,
+		.bodyContainer .TextContent h1 a,
+		.bodyContainer .TextContent h2 a,
+		.bodyContainer .TextContent h3 a,
+		.bodyContainer .TextContent h1 a:hover,
+		.bodyContainer .TextContent h2 a:hover,
+		.bodyContainer .TextContent h3 a:hover{
+		  border-bottom:none;
+		}
+		.eventTable td {
+			vertical-align:top;
+		}
+		.eventTable .label {
+			font-weight:bold;
+			padding-right:6px;
+			text-wrap:none;
+		}
+		.button-wrap {
+			margin:1em 0;
+			text-align:center;
+		}
+    .button {
+      background:#cc3333;
+      color:#fff;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      border-radius:4px;
+      color:#ffffff!important;
+      margin:auto;
+    }
+    .button td {
+      color:#fff;
+      font-family:'Roboto Condensed', 'Arial';
+      padding-top:10px;
+      padding-right:20px;
+      padding-bottom:10px;
+      padding-left:20px;
+      text-align:center;
+    }
+    .button td a {
+      border-bottom:none!important;
+      color:#ffffff!important;
+      display:block;
+      height:100%;
+      width:100%;
+      text-decoration:none!important;
+    }
+		.table-of-contents {
+			list-style-type:square;
+			margin:0 0 1em 0;
+			padding:0 0 0 1em;
+		}
+@media only screen and (max-width: 480px){
+		.image-left,.image-right{
+			display:block;
+			max-width:100%!important;
+			padding:1em 0;
+			width:100%;
+		}
+		.table-of-contents {
+			display:none;
+		}
+}
+</style></head>
+      <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+          <center>
+              <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                  <tr>
+                      <td align="center" valign="top" id="bodyCell">
+                          
+                          <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                              <tr>
+                                  <td align="center" valign="top">
+                                      
+                                      <table border="0" cellpadding="0" cellspacing="0" width="600" id="templatePreheader">
+                                          <tr>
+                                          	<td valign="top" class="preheaderContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="TextBlock">
+      <tbody class="TextBlockOuter">
+          <tr>
+              <td valign="top" class="TextBlockInner">
+                  
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="TextContentContainer">
+                      <tbody><tr>
+                          
+                          <td valign="top" class="TextContent">
+                              	<singleline label='Preheader Teaser'>Your preheader text goes here.</singleline>
+                          </td>
+                      </tr>
+                  </tbody></table>
+                  
+              </td>
+          </tr>
+      </tbody>
+  </table></td>
+                                          </tr>
+                                      </table>
+                                      
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td align="center" valign="top">
+                                      
+                                      <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                          <tr>
+                                              <td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="BoxedTextBlock">
+      <tbody class="BoxedTextBlockOuter">
+          <tr>
+              <td valign="top" class="BoxedTextBlockInner">
+                  
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="BoxedTextContentContainer">
+                      <tbody><tr>
+                          
+                          <td>
+                          
+                              <table border="0" cellpadding="0" cellspacing="0" class="TextContentContainer" width="100%">
+                                  <tbody>
+                                  <tr>
+                                  	  <td style="width:60px;padding:10px 0 5px 18px;vertical-align:middle;"><a href="#"><img src="/assets/usdos-logo-seal.png" style="height:60px!important;width:auto!important;" /></a></td>
+                                      <td class="TextContent"><singleline label='Host Country'>The United States of America and Embassy in Austria</singleline><br />
+                                      <span class="OfficialLine"><singleline label='Official Line'>This is an official email from the U.S. Embassy in Austria</singleline></span></td>
+                                  </tr>
+                              </tbody></table>
+                          </td>
+                      </tr>
+                  </tbody></table>
+                  
+              </td>
+          </tr>
+      </tbody>
+  </table></td>
+                                          </tr>
+                                      </table>
+                                      
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td align="center" valign="top">
+                                      
+                                      <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                          <tr>
+                                              <td valign="top" class="bodyContainer">
+  	<table border="0" cellpadding="0" cellspacing="0" width="100%" class="TextBlock" mc:repeatable>
+  	  
+        <tbody class="TextBlockOuter">
+            <tr>
+                <td valign="top" class="TextBlockInner">
+                  	<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="TextContentContainer">
+                        <tbody>
+                        <tr>
+                        	<td valign="top" class="TextContent">
+							<repeater>
+							<layout label='Heading 1 - Large'>
+                     	  	<h1><singleline label='Heading 1' repeatertitle='true'>Heading 1 - Email Title</singleline></h1>
+							</layout>
+                   			<layout label='Heading 1 - w/ Table of Contents'>
+                     	  		<h1 style="margin:0 0 .2em 0;"><singleline label='Heading 1 - Table of Contents'>Heading 1 - Table of Contents</singleline></h1>
+                   				<ul class="table-of-contents">
+                   					<tableofcontents>
+                   					<li><repeatertitle /></li>
+                   					</tableofcontents>
+                   				</ul>
+                        	</layout>
+							<layout label='Heading 1 - Section Break'>
+                     	  	<h1 style="margin:0 0 .2em 0;"><singleline label='Heading 1 - Section Break' repeatertitle='true'>Heading 1 - Section Break</singleline></h1>
+                     	  	<hr class="break" />
+                        	</layout>
+							<layout label='Heading 2 - Medium'>
+                     	  	<h2><singleline label='Heading 2'>Heading 2</singleline>
+                        	</h2></layout>
+							<layout label='Text Block'>
+							<multiline label='Text Block'>
+                        	  <p>This is a simple content block with text.</p>
+                        	</multiline>
+                        	</layout>
+                        	
+                        	<layout label='Image Block'>
+							  <img src="////csimport/17406848119_2b06b75d16_c_1.jpg" label="Image 1" alt="Image 1" width="562" editable />
+                        	</layout>
+                        	<layout label='Left Image Block'>
+                        	  <div class="image-wrap">
+							  <img src="////csimport/17406848119_2b06b75d16_c_1.jpg" class="		" align="left" label="Image 1" alt="Image 1" width="220" editable />
+                        	  <multiline label='Text Block'>
+                        	  <p>This is a left aligned image text block. The text wraps around the image.</p>
+							  </multiline>
+							  <br style="clear:both;" />
+							  </div>
+                        	</layout>
+                        	<layout label='Right Image Block'>
+                        	  <div class="image-wrap">
+							  <img src="////csimport/17406848119_2b06b75d16_c_1.jpg" class="image-right" align="right" label="Image 1" alt="Image 1" width="220" editable />
+                        	  <multiline label='Text Block'>
+                        	  <p>This is a right aligned image text block. The text wraps around the image.</p>
+							  </multiline>
+							  <br style="clear:both;" />
+                        	  </div>
+                        	</layout>
+                        	<layout label='Event Block'>
+          							  <table class="eventTable">
+          							    <tbody>
+          							      <tr>
+          							        <td class="label">What:</td>
+          							        <td><singleline label='Event Name'>Great event for you to attend</singleline></td>
+          							      </tr>
+          							      <tr>
+          							        <td class="label">When:</td>
+          							        <td><singleline label='Event Date'>Friday, Jan. 12th, 2015 @ 10pm</singleline></td>
+          							      </tr>
+          							      <tr>
+          							        <td class="label">Where:</td>
+          							        <td><singleline label='Event Location'>The event location</singleline></td>
+          							      </tr>
+          							    </tbody>
+          							  </table>
+                        	</layout>
+                        	<layout label='Button Block'>
+            							<div class="button-wrap">
+										<table class="button"><tr><td>
+            							<singleline label='Button Text'><a href="#">Click Here</a></singleline>
+										</td></tr></table>
+            							</div>
+                        	</layout>
+                        	</repeater>
+                        	
+                      		</td>
+                        </tr>
+                    	  </tbody>
+                  	</table>
+                </td>
+            </tr>
+        </tbody>
+        
+  	</table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td align="center" valign="top">
+                                      
+                                      <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateFooter">
+                                          <tr>
+                                              <td valign="top" class="footerContainer" style="padding-bottom:9px;">
+  
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="TextBlock">
+      <tbody class="TextBlockOuter">
+          <tr>
+              <td valign="top" class="TextBlockInner">
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="TextContentContainer">
+                      <tbody><tr>
+                          <td valign="top" class="TextContent">
+                          
+            							<p><multiline label='Footer Text'>Diese E-Mail wurde von der US-Botschaft in Deutschland an die E-Mail-Adresse [email address] gesendet. Wenn Sie diese Nachrichten nicht mehr erhalten möchten, können Sie sich von der Liste abmelden oder Ihre Einstellungen ändern.
+            							<a class="cs-editor-unsubscribe" href="http://washingtonadmin.createsend.com//t/i-u-jdjrdjd-l-l/">unsubscribe</a>.</multiline>
+										</p>
+            							<img src="/assets/usa-flag.jpg" style="padding:10px 0;" width="41" height="21" alt="Flag of the United States of America" />
+            							<p><multiline label='Footer Address'>
+            							U.S. Embassy in Austria<br />
+            							Boltzmanngasse 16<br />
+										1090 Vienna<br/>
+            							Phone:(+43-1) 31339-0
+            							</multiline></p>
+                        	<p class="SocialIcons">
+                        	<a href="https://www.twitter.com/"><img src="/icons/twitter.png" alt="Twitter" title="Twitter" style="height:24px!important;width:24px!important;" /></a>
+                        	<a href="https://www.facebook.com/"><img src="/icons/facebook.png" alt="Facebook" title="Facebook" style="height:24px!important;width:24px!important;" /></a>
+                        	</p>
+                        	
+                        	<p><unsubscribe>unsubscribe</unsubscribe></p>
+                          </td>
+                      </tr>
+                  </tbody></table>
+              </td>
+          </tr>
+      </tbody>
+  </table></td>
+                                          </tr>
+                                      </table>
+                                      
+                                  </td>
+                              </tr>
+                          </table>
+                          
+                      </td>
+                  </tr>
+              </table>
+          </center>
+      </body>
+  </html>
